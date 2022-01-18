@@ -10,7 +10,7 @@ export default function RoutesComponent() {
             <Routes>
                 <Route path="/" element={<Home/>} />
 
-                <Route path="/result" element={<Result/>} />
+                <Route path="/result/:title" element={<Result/>} />
                 <Route path="/detail" element={<Detail/>} />
 
             </Routes>
