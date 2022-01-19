@@ -11,7 +11,7 @@ export default function RoutesComponent() {
                 <Route path="/" element={<Home/>} />
 
                 <Route path="/result/:title" element={<Result/>} />
-                <Route path="/detail" element={<Detail/>} />
+                <Route path="/detail/:id" element={<Detail/>} />
 
             </Routes>
 
